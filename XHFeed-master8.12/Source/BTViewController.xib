@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BTViewController">
+            <connections>
+                <outlet property="CheckBtn" destination="rcg-o3-mdA" id="sAo-Tr-E0X"/>
+                <outlet property="textTFd" destination="JhH-P2-Ayt" id="Ho2-Vp-8Vd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.13" contentMode="center" image="speech-bubble-center-3.png" translatesAutoresizingMaskIntoConstraints="NO" id="yLt-8h-LGm">
+                    <rect key="frame" x="-7" y="408" width="64" height="34"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5yT-fu-fSR">
+                    <rect key="frame" x="1" y="384" width="320" height="96"/>
+                    <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="0.82000000000000006" colorSpace="calibratedRGB"/>
+                    <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" text="请输入最多140字" translatesAutoresizingMaskIntoConstraints="NO" id="JhH-P2-Ayt">
+                    <rect key="frame" x="7" y="390" width="308" height="84"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcg-o3-mdA" customClass="SYFCustomButton">
+                    <rect key="frame" x="263" y="448" width="51" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="51" id="9of-bN-nG8"/>
+                        <constraint firstAttribute="height" constant="26" id="gaM-eV-VJu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="清除">
+                        <color key="titleColor" red="0.20000000298023224" green="0.20000000298023224" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" red="0.43529411764705883" green="0.44313725490196076" blue="0.47450980392156861" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="cleanClicked:" destination="-1" eventType="touchUpInside" id="dS4-hX-kJH"/>
+                    </connections>
+                </button>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="line.png" translatesAutoresizingMaskIntoConstraints="NO" id="YnG-0s-Ely">
+                    <rect key="frame" x="-58" y="381" width="555" height="9"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="9" id="09C-sD-N3b"/>
+                    </constraints>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="line.png" translatesAutoresizingMaskIntoConstraints="NO" id="qNS-iz-swz">
+                    <rect key="frame" x="-117" y="474" width="555" height="11"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="rcg-o3-mdA" firstAttribute="bottom" secondItem="JhH-P2-Ayt" secondAttribute="bottom" id="3n5-Ac-a31"/>
+                <constraint firstItem="rcg-o3-mdA" firstAttribute="top" secondItem="YnG-0s-Ely" secondAttribute="bottom" constant="58" id="3uH-OI-BCN"/>
+                <constraint firstAttribute="bottom" secondItem="qNS-iz-swz" secondAttribute="bottom" constant="-5" id="6xs-II-EWX"/>
+                <constraint firstAttribute="bottom" secondItem="5yT-fu-fSR" secondAttribute="bottom" id="8yd-mp-uNK"/>
+                <constraint firstItem="JhH-P2-Ayt" firstAttribute="centerY" secondItem="5yT-fu-fSR" secondAttribute="centerY" id="ASZ-KA-FsY"/>
+                <constraint firstItem="5yT-fu-fSR" firstAttribute="centerX" secondItem="JhH-P2-Ayt" secondAttribute="centerX" id="GuJ-3p-vcI"/>
+                <constraint firstItem="yLt-8h-LGm" firstAttribute="top" secondItem="YnG-0s-Ely" secondAttribute="bottom" constant="18" id="LDk-Zb-TRS"/>
+                <constraint firstItem="JhH-P2-Ayt" firstAttribute="top" secondItem="YnG-0s-Ely" secondAttribute="bottom" id="S8D-wo-IHo"/>
+                <constraint firstAttribute="trailing" secondItem="5yT-fu-fSR" secondAttribute="trailing" constant="-1" id="Sld-0c-9JK"/>
+                <constraint firstItem="YnG-0s-Ely" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="-58" id="b4a-Tm-8aE"/>
+                <constraint firstItem="qNS-iz-swz" firstAttribute="top" secondItem="yLt-8h-LGm" secondAttribute="bottom" constant="32" id="eUO-Fe-ZOd"/>
+                <constraint firstItem="qNS-iz-swz" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="iB3-4h-29e"/>
+                <constraint firstAttribute="trailing" secondItem="rcg-o3-mdA" secondAttribute="trailing" constant="6" id="kHd-du-EF3"/>
+                <constraint firstItem="JhH-P2-Ayt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="7" id="os6-f6-yD6"/>
+                <constraint firstItem="yLt-8h-LGm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="-7" id="tgK-xC-rz6"/>
+                <constraint firstItem="5yT-fu-fSR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="1" id="yP1-Pv-IcU"/>
+                <constraint firstItem="qNS-iz-swz" firstAttribute="top" secondItem="rcg-o3-mdA" secondAttribute="bottom" id="yb5-xs-ypv"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="314" y="206"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="line.png" width="555" height="11"/>
+        <image name="speech-bubble-center-3.png" width="64" height="64"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

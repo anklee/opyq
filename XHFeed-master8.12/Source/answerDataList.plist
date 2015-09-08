@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>msg1</key>
+	<dict>
+		<key>msgid</key>
+		<string>1</string>
+		<key>img</key>
+		<string></string>
+		<key>user</key>
+		<string>anklee</string>
+		<key>text</key>
+		<string>test for answer</string>
+		<key>time</key>
+		<date>2015-08-07T15:03:10Z</date>
+	</dict>
+	<key>msg2</key>
+	<dict>
+		<key>msgid</key>
+		<string>2</string>
+		<key>img</key>
+		<string></string>
+		<key>user</key>
+		<string>anklee2</string>
+		<key>text</key>
+		<string>test for answer2</string>
+		<key>time</key>
+		<date>2015-08-07T15:03:10Z</date>
+	</dict>
+	<key>msg3</key>
+	<dict>
+		<key>msgid</key>
+		<string>3</string>
+		<key>img</key>
+		<string></string>
+		<key>user</key>
+		<string>anklee3</string>
+		<key>text</key>
+		<string>test for answer3</string>
+		<key>time</key>
+		<date>2015-08-07T15:03:10Z</date>
+	</dict>
+	<key>msg4</key>
+	<dict>
+		<key>msgid</key>
+		<string>4</string>
+		<key>img</key>
+		<string></string>
+		<key>user</key>
+		<string>anklee4</string>
+		<key>text</key>
+		<string>test for answer4</string>
+		<key>time</key>
+		<date>2015-08-07T15:03:10Z</date>
+	</dict>
+</dict>
+</plist>
