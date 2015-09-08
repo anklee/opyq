@@ -35,6 +35,7 @@
 		441EE9991B74AC6200FF67CF /* 378-close.png in Resources */ = {isa = PBXBuildFile; fileRef = 441EE9981B74AC6200FF67CF /* 378-close.png */; };
 		442F78841B9C7376009C4AE2 /* ASIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442F78831B9C7376009C4AE2 /* ASIKit.framework */; };
 		4468B3351B74FFC900A52A8B /* answerDataList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4468B3341B74FFC900A52A8B /* answerDataList.plist */; };
+		448888F31B9F353400989043 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 448888F21B9F353400989043 /* File */; };
 		AB420D82185A6BFE00FE5E72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB420D81185A6BFE00FE5E72 /* Foundation.framework */; };
 		AB420D84185A6BFE00FE5E72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB420D83185A6BFE00FE5E72 /* CoreGraphics.framework */; };
 		AB420D86185A6BFE00FE5E72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB420D85185A6BFE00FE5E72 /* UIKit.framework */; };
@@ -119,6 +120,7 @@
 		441EE9981B74AC6200FF67CF /* 378-close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "378-close.png"; path = "../378-close.png"; sourceTree = "<group>"; };
 		442F78831B9C7376009C4AE2 /* ASIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ASIKit.framework; sourceTree = "<group>"; };
 		4468B3341B74FFC900A52A8B /* answerDataList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = answerDataList.plist; sourceTree = "<group>"; };
+		448888F21B9F353400989043 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = File; path = ../Project/File; sourceTree = "<group>"; };
 		AB420D7E185A6BFE00FE5E72 /* XHFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB420D81185A6BFE00FE5E72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AB420D83185A6BFE00FE5E72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -290,6 +292,7 @@
 		AB420DB9185A6C3400FE5E72 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				448888F21B9F353400989043 /* File */,
 				441EE97A1B73020B00FF67CF /* seendMsgViewViewController.h */,
 				441EE97B1B73020B00FF67CF /* seendMsgViewViewController.m */,
 				441EE97C1B73020B00FF67CF /* seendMsgViewViewController.xib */,
@@ -492,6 +495,7 @@
 				ABDC2ED9185A78BE00D78D31 /* profile-3.jpg in Resources */,
 				441A3E981B7882D100A5E170 /* seendMsgViewViewController.png in Resources */,
 				441A3E921B787EDB00A5E170 /* Default-568h@2x.png in Resources */,
+				448888F31B9F353400989043 /* File in Resources */,
 				441A3E881B75922900A5E170 /* bin.png in Resources */,
 				ABDC2ED3185A78BE00D78D31 /* feed-armchair.jpg in Resources */,
 				4468B3351B74FFC900A52A8B /* answerDataList.plist in Resources */,
